@@ -184,7 +184,7 @@ h2 {
     text-decoration: underline;
 }
 
-@media (max-width:1080px) {
+@media (max-width:450px) {
     .container {
         position: relative;
         width: 150px;
@@ -229,6 +229,17 @@ h2 {
         transition: .5s ease;
     }
 
+    .input-box label {
+        position: absolute;
+        top: 50%;
+        left: 20px;
+        transform: translateY(-50%);
+        font-size: 0.7em;
+        color: #fff;
+        pointer-events: none;
+        transition: .5s ease;
+    }
+    
     .btn {
         position: relative;
         display: inline-block;
@@ -250,6 +261,7 @@ h2 {
     .forget-pass {
         margin: -21px 0 10px 1;
         text-align: center;
+        font-size: 0.8em;
     }
 
     .signup-link {
